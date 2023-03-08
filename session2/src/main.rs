@@ -9,7 +9,6 @@ use std::fs::File;
 use std::io::{BufRead, BufReader};
 use std::str::FromStr;
 
-#[allow(dead_code)]
 #[derive(Debug)]
 enum Line {
     Name(String),
